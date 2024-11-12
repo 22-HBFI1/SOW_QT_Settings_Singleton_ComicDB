@@ -1,0 +1,14 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE comicfigures
+(
+  id integer primary key,
+  name varchar2(50) not null,
+  bewertung integer,
+  groesse double
+);
+INSERT INTO comicfigures VALUES(1,'Asterix',120,1.19);
+INSERT INTO comicfigures VALUES(2,'Mickey Mouse',78,1.37);
+INSERT INTO comicfigures VALUES(3,'Tim',123,1.75);
+INSERT INTO comicfigures VALUES(4,'Garfield',25,0.65);
+COMMIT;

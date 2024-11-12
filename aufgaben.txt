@@ -1,0 +1,42 @@
+QtLinguist
+==========
+
+Ergänzen Sie das Projekt um die Möglichkeit, alle Ausgaben ins
+Englische übersetzt zu bekommen (oder ins Deutsche, wenn der
+Quelltext bereits Englisch ist).
+
+Lassen Sie die erforderlichen TS-Dateien erstellen und
+übersetzen Sie die Inhalte mit dem QtLinguist.
+
+Implementieren Sie in der MainForm einen Translator und nutzen Sie
+ihn in der QApplication. Laden Sie zunächst fest die übersetzte
+Variante.
+
+Passen Sie die Anwendung so an, dass bei Start aus der Systemumgebung
+ermittelt wird, welche Sprache gewünscht ist und laden Sie diese
+direkt.
+
+Erweitern Sie das GUI um QRadioButton und sorgen Sie dafür, dass
+darüber die Sprache zur Laufzeit frei ausgewählt und umgeschaltet
+werden kann. Die Voreinstellung dazu soll weiterhin durch die
+Systemumgebung vorgegeben sein.
+
+Im Quelltext gibt es weitere Texte, die auch übersetzt werden sollen.
+Erweitern Sie die Anwendung so, dass z.B. auch die Texte in den
+Nachrichtenboxen in der ausgewählten Sprache erscheinen.
+
+Auch in der Tabelle erscheinen sprachrelevante Ausgaben. Implementieren
+Sie eine Möglichkeit, dass die Darstellung in der Tabelle ebenfalls
+der ausgewählten Sprache angepasst ist.
+
+Ressourcen Nutzung
+==================
+
+Fügen Sie dem Projekt eine Ressourcen-Datei hinzu und befüllen Sie sie mit
+den Bilddateien/Icons für die Knöpfe. Nutzen Sie dabei eine sinnvolle
+Ordnerstruktur oder passende Prefixe. Wählen Sie dann im Designerformular
+für die Knöpfe die zugehörigen Bilder/Icons aus.
+
+Da auch die Sprachdateien als Ressourcen verwaltet werden können, macht
+es Sinn diese ebenfalls mit in Ihre Ressourcen-Datei aufzunehmen und
+den Quelltext so zu ändern, dass die Sprachdateien daraus genutzt werden.

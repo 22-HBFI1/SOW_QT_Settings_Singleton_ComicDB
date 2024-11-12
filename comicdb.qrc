@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/del.png</file>
+        <file>icons/change.png</file>
+        <file>icons/add.png</file>
+        <file>icons/flags/flag_en_us.png</file>
+        <file>icons/flags/flag_de.png</file>
+    </qresource>
+    <qresource prefix="/languages">
+        <file>comicdb_en.qm</file>
+    </qresource>
+</RCC>
